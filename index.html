@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table tr,td, th{
+            background-color: #ab15c3;
+            border: 1px solid white;
+            color: white;
+            width: 100%;
+
+             
+        }
+          
+    </style>
+
+</head>
+<body style="background-image:url('teachers.jpg');">
+    
+    <header style="border: 1px solid white; height: 10vh;background-color: #5e95e4 ; text-align: center;">
+        <h1 style="color: white;">Teachers App</h1>
+    </header>
+    <div>
+        <h1 style="height: 25px; color:#920898 ; height: 25px;"><strong>50 Class</strong></h1>
+        <h2 style="height: 17px;color:#920898 ;"><i>"Welcome to our website"</i> </h2>
+        <fieldset>
+            <legend>FORM</legend>
+        <form action="article">
+            <label for="email" style="width: 30%;"><strong><i>Enter your email</i></strong></label>
+            <input type="email" name="email" id="email">
+            <br>
+            <label for="fname" ><strong><i> First name:</i></strong> </label><br>
+            <input type="text" id="fname" name="fname" min="2" max="30"><br>
+            <label for="lname"><strong><i>Last Name</i></strong></label><br>
+            <input type="text" id="lname" name="lname" min="2" max="30"><br><br>
+            <input type="button" onclick="save" value="save" >
+            <br>
+            <label for="birthday"><strong><i>Birthday:</i></strong></label>
+            <input type="date" id="birthday" name="birthday">
+            <br>
+            <label for="robin"><strong><i>Grades:</i></strong></label>   
+            <input type="number" name="robin" id="robin" min="0" max="15" onkeydown="return false">
+        </form>
+        </fieldset>
+
+
+    </div>
+    <div>
+        <br>
+        <table border="1">
+            <thead>
+                <th>Full Name</th>                                                
+                <th>Date</th>                                                             
+                <th>Email</th>                                                                                                                                      Shlomi Lakao                                                                              Asaf Balacho
+            </thead>
+            <tbody>
+                <tr><td>Gad Hezkiyahu</td> <td>12\3\2005</td> <td>gad2@gmail.com</td></tr>
+                <tr><td>Asaf Gedamo</td> <td>5\6\2012</td> <td></td>asaf4@gmail.com</tr>
+                <tr><td> Yakov Lakao</td> <td>25\6\2019</td> <td></td>yakov2@gmail.com</tr>             
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+    </div>
+
+
+
+
+
+
+    <footer style="border: 1px solid white; height: 10vh;background-color:#5e95e4;position: fixed;bottom: 0;width: 100%; ">
+        <button style="width: 60px; height: 30px;background-color:#c3158e ;color: white;">SAVE</button>
+    </footer>
+</body>
+</html
